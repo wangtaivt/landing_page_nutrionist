@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./assets/abstract/petals-rec.svg">
+    <title>About Page</title>
+    <style type="text/tailwindcss"> @layer base {
+        html {
+                scroll-behavior: smooth;
+            }
+        }
+
+        @theme {
+            --font-sans: 'Urbanist', sans-serif;
+            --color-absolute-white: #FFFFFF;
+            --color-absolute-black: #000000;
+            --color-green-70: #CBEA7B; 
+            --color-green-75: #D3EE91;
+            --color-green-80: #DCF1A7;
+            --color-green-85: #E5F5BD;
+            --color-green-90: #EEF8D3;
+            --color-green-95: #F6FBE9;
+            --color-green-97: #FCFDF0;
+            --color-green-99: #FCFDF0;
+            --color-dark-green-15: #1A3129;
+            --color-dark-green-20: #234338 ;
+            --color-dark-green-25: #2C5446;
+            --color-dark-green-30:#346454;
+            --color-dark-green-40: #468671;
+            --color-dark-green-60: #79B9A4;
+            --color-dark-green-80: #BCDCD1;
+            --color-dark-green-90: #DDEDE8;
+            --color-grey-10: #191919;
+            --color-grey-15: #262626;
+            --color-grey-20: #333333;
+            --color-grey-30: #4C4C4D;
+            --color-grey-35: #59595A;
+            --color-grey-40: #656567;
+            --color-grey-60: #98989A;
+            --color-grey-90: #E6E6E6;
+            --color-grey-95: #F2F2F2;
+            --color-grey-97: #F7F7F7;
+            --color-grey-99: #FCFCFC;
+            --font-weight-regular: 400;
+            --font-weight-medium: 500;
+            --font-weight-semibold: 600;
+            --font-weight-bold: 700;
+            --font-weight-extrabold: 800;
+            --breakpoint-tablet: 1200px;
+            --breakpoint-phone: 360px;
+            --breakpoint-desktop: 1440px;
+        }
+
+    </style>
+  </head>
+  <body id="header__btn">
+    <header class="bg-dark-green-15 desktop:w-full desktop:fixed z-100 tablet:w-full phone:w-full phone:fixed tablet:fixed">
+      <!-- Join Our Personalized Nutrition Demo For Free -->
+      <div class="desktop:w-full desktop:px-[75px] tablet:px-[50px] tablet:w-full flex desktop:h-18 tablet:h-17 tablet:items-center tablet:justify-center desktop:items-center desktop:justify-center border-b border-dark-green-25 desktop:hover:opacity-75 tablet:hover:opacity-75 cursor-pointer phone:w-full desktop:py-0 tablet:py-0 phone:px-4 phone:overflow-hidden phone:relative phone:flex phone:justify-between phone:pt-[40px] phone:pb-[14px]">
+        <img src="./assets/abstract/path.png" class="desktop:w-[194.17px] desktop:h-[100px] desktop:hidden tablet:hidden phone:block phone:z-[-10] phone:absolute phone:top-[50px] phone:left-[-75px] phone:w-[144px] phone:h-[74px]">
+        <div class="bg-dark-green-20 h-11 w-full border border-dark-green-25 rounded-md flex items-center justify-between desktop:overflow-hidden tablet:overflow-hidden phone:hover:bg-dark-green-15">
+          <img src="./assets/abstract/path.png" class="desktop:block desktop:w-[194.17px] desktop:h-[74px] tablet:block tablet:h-[74px] phone:hidden tablet:pl-[40px]">
+          <div class="desktop:flex desktop:items-center desktop:justify-center desktop:gap-[20px] phone:flex phone:justify-center phone:m-auto phone:gap-[14px]">
+            <div>
+              <div class="desktop:flex desktop:items-center desktop:gap-[6px] phone:flex phone:gap-[6px]">
+                <img src="./assets/abstract/header-icon.png" alt="icon" class="desktop:w-6 desktop:h-6 phone:h-[20px] phone:w-[20px]">
+                <p class="desktop:text-lg font-medium text-absolute-white desktop:flex desktop:m-auto phone:text-sm tablet:text-[16px]">Join Our Personalized Nutrition Demo For Free</p>
+              </div>
+            </div>
+            <div class="text-absolute-white">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="desktop:w-6 desktop:h-6 phone:w-[20px] phone:h-[20px]">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+              </svg>
+            </div>
+          </div>
+          <img src="./assets/abstract/path.png" class="desktop:w-[194.17px] desktop:h-[100px] desktop:scale-x-[-1] desktop:block tablet:block tablet:pl-[40px] tablet:scale-x-[-1] tablet:h-[74px] phone:hidden">
+        </div>
+        <img src="./assets/abstract/path.png" class="desktop:hidden tablet:hidden phone:block phone:z-[-10] phone:absolute phone:top-[50px] phone:right-[-75px] phone:w-[144px] phone:h-[74px] phone:scale-x-[-1] phone:z-0">
+      </div>
+      <!-- Menu -->
+      <div class="w-full desktop:flex desktop:h-[95px] desktop:justify-center desktop:items-center tablet:justify-center tablet:items-center">
+        <div class="w-full desktop:px-[75px] tablet:px-[50px] desktop:flex desktop:items-center desktop:justify-between phone:px-4 phone:h-[74px] phone:flex phone:items-center phone:justify-between">
+          <a href="about-page.html">
+            <img src="./assets/logo/desktop_logo.png" alt="logo" class="desktop:w-[194.62px] desktop:h-[45px] tablet:h-[34px] tablet:w-[147.05px] phone:w-[147.05px] phone:h-[34px]">
+          </a>
+          <!--  -->
+          <div class="desktop:flex desktop:gap-[40px] desktop:justify-center desktop:flex-row desktop:items-center tablet:flex tablet:gap-[30px] tablet:justify-center tablet:flex-row tablet:items-center phone:flex phone:flex-col phone:justify-center phone:z-1000">
+            <input type="checkbox" id="header__menu-hambuger" class="peer hidden">
+            <!-- desktop:!hidden: fix lỗi khi chuyển từ mobile qua desktop vẫn hiển thị menu khi lớp overlay đang hiển thị. !hidden giúp ẩn đi cả lớp phủ ở desktop dù ở bất kỳ trạng thái nào của checkbox -->
+            <label for="header__menu-hambuger" class="hidden peer-checked:block phone:fixed phone:inset-0 phone:bg-black/60 phone:backdrop-blur-sm phone:z-[1000] desktop:!hidden cursor-pointer transition-opacity"></label>
+            <label for="header__menu-hambuger" class="desktop:hidden tablet:hidden phone:block cursor-pointer peer-checked:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="size-6 text-green-70">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
+              </svg>
+            </label>
+            <div class="hidden peer-checked:flex phone:flex-col phone:fixed phone:top-0 phone:right-0 phone:w-[260px] phone:h-screen phone:bg-dark-green-15 phone:z-[9999] phone:shadow-2xl tablet:flex tablet:static tablet:flex-row tablet:h-auto tablet:w-auto tablet:bg-transparent tablet:shadow-none tablet:justify-center tablet:gap-[30px] tablet:items-center desktop:gap-[40px]">
+              <div class="tablet:hidden phone:flex phone:justify-end phone:w-full phone:pt-[24px] phone:pr-[24px]">
+                <label for="header__menu-hambuger" class="cursor-pointer">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="size-6 text-absolute-white hover:text-green-70 transition-colors">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                  </svg>
+                </label>
+              </div>
+              <ul class="desktop:flex desktop:flex-row desktop:mt-0 desktop:gap-[26px] tablet:flex tablet:flex-row tablet:mt-0 tablet:gap-[20px] phone:w-[260px] tablet:w-auto desktop:w-auto phone:items-center phone:flex phone:flex-col phone:gap-5 phone:px-[24px] phone:mt-[20px] text-green-97 font-semibold desktop:text-lg leading-[1.5]" id="phone-menu">
+                <li class="cursor-pointer transition-all duration-300 ease-in-out hover:text-green-70 phone:p-[8px]">
+                  <a href="#">Home</a>
+                </li>
+                <li class="cursor-pointer transition-all duration-300 ease-in-out hover:text-green-70 text-green-70 phone:p-[8px]">
+                  <a href="#!">About</a>
+                </li>
+                <li class="cursor-pointer transition-all duration-300 ease-in-out hover:text-green-70 phone:p-[8px]">
+                  <a href="#">Team</a>
+                </li>
+                <li class="cursor-pointer transition-all duration-300 ease-in-out hover:text-green-70 phone:p-[8px]">
+                  <a href="#">Process</a>
+                </li>
+                <li class="cursor-pointer transition-all duration-300 ease-in-out hover:text-green-70 phone:p-[8px]">
+                  <a href="#">Pricing</a>
+                </li>
+                <li class="cursor-pointer transition-all duration-300 ease-in-out hover:text-green-70 phone:p-[8px]">
+                  <a href="#">Blog</a>
+                </li>
+              </ul>
+              <div class="flex phone:px-[24px] phone:mt-[24px] desktop:p-0 desktop:m-0 tablet:p-0 tablet:m-0">
+                <button class="group transition-all duration-300 ease-in-out flex bg-green-70 py-[14px] px-[24px] overflow-hidden text-lg text-grey-15 font-semibold rounded-lg hover:opacity-80 cursor-pointer gap-[10px] phone:w-full phone:justify-center">
+                  <span>Contact Us</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+        </div>
+      </div>
+    </header>
+    <main class="desktop:pt-40 desktop:mx-[75px] phone:mx-[15px] phone:pt-25 tablet:mx-[50px]">
+      <div class="desktop:flex desktop:gap-[100px] phone:gap-5 desktop:flex-col items-center desktop:m-auto">
+        <div class="pt-25 flex pb-25">
+          <img src="./assets/abstract/rec-large.png" alt="rec-large" class="">
+        </div>
+        <div class="flex desktop:p-[100px] bg-green-95 items-center m-auto flex-col desktop:gap-[50px] phone:gap-[20px] rounded-lg border-green-85 phone:p-7.5">
+          <h2 class="font-semibold desktop:text-5xl text-grey-15 leading-[1.5] text-center w-full phone:text-[28px]">Welcome to Nutritionist</h2>
+          <p class="text-center text-grey-20 leading-[1.5] font-medium desktop:text-[18px] tablet:text-[16px] phone:text-[14px] m-auto">Your trusted source for personalized nutrition coaching. Our mission is to help you achieve your weight loss and health goals through tailored nutrition plans and expert guidance. We understand that every individual is unique, and that's why we believe in providing personalized solutions that fit your lifestyle and preferences. With our team of qualified nutritionists and dietitians, we are dedicated to empowering you with the knowledge and tools you need to make lasting changes. Whether you want to shed those extra pounds, improve your overall well-being, or develop a healthier relationship with food, we are here to support you every step of the way At Nutritionist, we believe that healthy eating should be enjoyable and sustainable. We emphasize the importance of balanced nutrition, focusing on whole foods and mindful eating practices. Our approach is rooted in scientific research and evidence-based strategies, ensuring that you receive the most up-to-date and accurate information. Join our community of individuals committed to transforming their lives through nutrition. Take control of your health, boost your energy levels, and discover the joy of nourishing your body with wholesome foods. We are here to guide you towards a healthier, happier you. </p>
+        </div>
+      </div>
+      <div class="desktop:mt-[150px] phone:mt-[50px] flex items-center m-auto flex-col desktop:w-full phone:w-full">
+        <div class="flex m-auto flex-col items-center phone:gap-[20px] desktop:mb-[80px] phone:mb-[50px]">
+          <h2 class="flex justify-center text-grey-15 font-bold leading-[1.5] desktop:text-5xl phone:text-[28px]">Our Story</h2>
+          <p class="flex text-center align-center leading-[1.5] desktop:text-[18px] tablet:text-[16px] phone:text-[14px] text-grey-20 font-medium desktop:px-75 tablet:px-20">Welcome to Nutritionist, your partner in achieving optimal health through personalized nutrition coaching. Our certified nutritionists are here to guide you on your weight loss journey.</p>
+        </div>
+        <!-- Inspiring Transformations Story -->
+        <div class="desktop:flex desktop:flex-col m-auto tablet:flex tablet:flex-col">
+          <div class="desktop:flex desktop:flex-row phone:flex phone:flex-col tablet:flex tablet:flex-row">
+            <img src="./assets/story/transformation-story.png" alt="transformation-story" class="desktop:w-1/2 tablet:w-1/2 h-auto tablet:border-r-[12px] desktop:border-r-[18px] phone:border-b-[11px] desktop:border-b-[0px] tablet:border-b-[0px] border-green-70 rounded-tl-[16px] phone:rounded-tr-[16px] tablet:rounded-tr-[0px] desktop:rounded-tr-[0px]">
+            <div class="flex flex-col desktop:gap-10 tablet:gap-7.5 phone:gap-5 justify-center desktop:w-1/2 tablet:w-1/2 h-auto bg-green-95 desktop:rounded-tr-[16px] tablet:rounded-tr-[16px] desktop:pl-[80px] tablet:pl-[60px] phone:px-[30px] phone:pb-[30px]">
+              <h3 class="desktop:w-[392px] tablet:w-[336px] border-b-[3px] phone:border-b-[3px] phone:pb-[10px] font-semibold leading-[1] desktop:text-[28px] tablet:text-[24px] phone:text-[20px] desktop:pt-[10px] desktop:pb-[10px] border-green-70 phone:py-7.5">Inspiring Transformations Story</h3>
+              <p class="leading-[1.5] text-grey-20 desktop:text-[18px] tablet:text-[16px] phone:text-[14px] font-medium">Nutritionist continues to empower individuals to transform their lives through personalized nutrition coaching. With an expanding client base and a growing team of experts, we remain committed to our goal of helping people lose weight, improve their health, and lead happier, more fulfilling lives. Our journey of inspiring transformations continues, one client at a time.</p>
+              <span class="leading-[1.5] font-semibold text-grey-20 desktop:text-[18px] tablet:text-[16px] phone:text-[14px]">July 1, 2025</span>
+            </div>
+          </div>
+        </div>
+        <!-- Recognition and Accolades Story -->
+        <div class="desktop:flex desktop:flex-col tablet:flex tablet:flex-col m-auto">
+          <div class="desktop:flex desktop:flex-row tablet:flex tablet:flex-row phone:flex phone:flex-col-reverse">
+            <div class="flex flex-col desktop:gap-10 tablet:gap-7.5 phone:gap-5 justify-center desktop:w-1/2 tablet:w-1/2 h-auto bg-green-95 desktop:pr-[80px] tablet:pr-[60px] tablet:px-[60px] phone:px-[30px] phone:pb-[30px] desktop:text-right tablet:text-right desktop:border-r-[18px] tablet:border-r-[12px] phone:border-t-[11px] desktop:border-t-[0px] tablet:border-t-[0px] border-green-70">
+              <h3 class="desktop:w-[411px] tablet:w-[353px] phone:w-full phone:pb-[10px] phone:text-[20px] border-b-[3px] font-semibold leading-[1] desktop:text-[28px] tablet:text-[24px] pt-[10px] pb-[10px] border-green-70 desktop:ml-auto tablet:ml-auto phone:py-7.5"> Recognition and Accolades Story </h3>
+              <p class="leading-[1.5] text-grey-20 desktop:text-[18px] tablet:text-[16px] phone:text-[14px] font-medium desktop:ml-[80px]"> Nutritionist received industry recognition for its excellence in personalized nutrition coaching. Our innovative approach and dedication to client success earned us accolades and solidified our position as a leading provider in the field. </p>
+              <span class="leading-[1.5] font-semibold text-grey-20 desktop:text-[18px] tablet:text-[16px] phone:text-[14px]">March 10, 2023</span>
+            </div>
+            <img src="./assets/story/recognition-story.png" alt="recognition-story" class="desktop:w-1/2 tablet:w-1/2 phone:w-full h-auto">
+          </div>
+        </div>
+        <!-- Continued Growth Story -->
+        <div class="desktop:flex desktop:flex-col tablet:flex tablet:flex-col m-auto">
+          <div class="desktop:flex desktop:flex-row tablet:flex tablet:flex-row phone:flex phone:flex-col">
+            <img src="./assets/story/growth-story.png" alt="growth-story" class="desktop:w-1/2 tablet:w-1/2 phone:w-full h-auto desktop:border-r-[18px] tablet:border-r-[12px] desktop:border-b-[0px] phone:border-b-[11px] tablet:border-b-[0px] border-green-70">
+            <div class="flex flex-col desktop:gap-10 tablet:gap-7.5 phone:gap-5 justify-center desktop:w-1/2 h-auto bg-green-95 desktop:pl-[80px] tablet:pl-[60px] phone:px-[30px] phone:pb-[30px]">
+              <h3 class="desktop:w-[392px] tablet:w-[261px] phone:w-full phone:pb-[10px] phone:text-[20px] border-b-[3px] font-semibold leading-[1] desktop:text-[28px] tablet:text-[24px] pt-[10px] pb-[10px] border-green-70 phone:py-7.5">Continued Growth Story</h3>
+              <p class="leading-[1.5] text-grey-20 desktop:text-[18px] tablet:text-[16px] phone:text-[14px] font-medium desktop:mr-[80px] tablet:mr-[60px]">Nutritionist celebrated serving over 5,000 clients, a testament to our commitment to helping individuals achieve their health and weight loss goals. This milestone highlighted the positive impact we have made on the lives of thousands of people.</p>
+              <span class="leading-[1.5] font-semibold text-grey-20 desktop:text-[18px] tablet:text-[16px] phone:text-[14px]">November 2, 2021</span>
+            </div>
+          </div>
+        </div>
+        <!-- Collaborating for Success Story -->
+        <div class="desktop:flex desktop:flex-col tablet:flex tablet:flex-col m-auto">
+          <div class="desktop:flex desktop:flex-row tablet:flex tablet:flex-row phone:flex phone:flex-col-reverse">
+            <div class="flex flex-col desktop:gap-10 tablet:gap-7.5 phone:gap-5 justify-center desktop:w-1/2 tablet:w-1/2 h-auto bg-green-95 desktop:pr-[80px] tablet:pr-[60px] phone:px-[30px] desktop:text-right tablet:text-right border-green-70 phone:pb-[30px] desktop:border-r-[18px] tablet:border-r-[12px] phone:border-t-[11px] tablet:border-t-[0px] desktop:border-t-[0px] phone:pb-[30px] phone:rounded-br-[16px] phone:rounded-bl-[16px] desktop:rounded-br-[0px] desktop:rounded-bl-[0px] tablet:rounded-br-[0px] tablet:rounded-bl-[0px]">
+              <h3 class="desktop:w-[411px] tablet:w-[337px] phone:w-full phone:pb-[10px] phone:text-[20px] border-b-[3px] font-semibold leading-[1] desktop:text-[28px] tablet:text-[24px] pt-[10px] pb-[10px] border-green-70 ml-auto phone:py-7.5">Collaborating for Success Story</h3>
+              <p class="leading-[1.5] text-grey-20 desktop:text-[18px] tablet:text-[16px] phone:text-[14px] font-medium desktop:ml-[80px] tablet:ml-[60px]">Nutritionist established partnerships with renowned health professionals, including nutritionists, dietitians, and wellness experts. These collaborations allowed us to incorporate diverse perspectives and expertise, ensuring the highest level of guidance for our clients.</p>
+              <span class="leading-[1.5] font-semibold text-grey-20 desktop:text-[18px] tablet:text-[16px] phone:text-[14px]">July 15, 2019</span>
+            </div>
+            <img src="./assets/story/success-story.png" alt="success-story" class="desktop:w-1/2 tablet:w-1/2 phone:w-full h-auto">
+          </div>
+        </div>
+        <!-- Enhanced Support Story -->
+        <div class="desktop:flex desktop:flex-col tablet:flex tablet:flex-col m-auto phone:hidden">
+          <div class="desktop:flex desktop:flex-row tablet:flex tablet:flex-row">
+            <img src="./assets/story/support-story.png" alt="support-story" class="w-1/2 h-auto desktop:border-r-[18px] tablet:border-r-[12px] border-green-70">
+            <div class="flex flex-col desktop:gap-10 tablet:gap-7.5 justify-center desktop:w-1/2 tablet:w-1/2 h-auto bg-green-95 desktop:pl-[80px] tablet:pl-[60px]">
+              <h3 class="desktop:w-[392px] tablet:w-[263px] border-b-[3px] font-semibold leading-[1] desktop:text-[28px] tablet:text-[24px] pt-[10px] pb-[10px] border-green-70">Enhanced Support Story</h3>
+              <p class="leading-[1.5] text-grey-20 desktop:text-[18px] tablet:text-[16px] font-medium desktpơ:mr-[80px] tablet:mr-[60px]">In response to the growing demand for personalized nutrition coaching, Nutritionist expanded its team of qualified nutritionists and dietitians. This milestone enabled us to provide even more individualized care and support to our clients. </p>
+              <span class="leading-[1.5] font-semibold text-grey-20 desktop:text-[18px] tablet:text-[16px]">April 1, 2018</span>
+            </div>
+          </div>
+        </div>
+        <!-- Innovating for Clients Story -->
+        <div class="desktop:flex desktop:flex-col tablet:flex tablet:flex-col m-auto phone:hidden">
+          <div class="desktop:flex desktop:flex-row tablet:flex tablet:flex-row">
+            <div class="flex flex-col desktop:gap-10 tablet:gap-7.5 justify-center desktop:w-1/2 tablet:w-1/2 h-auto bg-green-95 pr-[80px] text-right border-green-70 desktop:border-r-[18px] tablet:border-r-[12px]">
+              <h3 class="desktop:w-[411px] tablet:w-[291px] border-b-[3px] font-semibold leading-[1] desktop:text-[28px] tablet:text-[24px] pt-[10px] pb-[10px] border-green-70 ml-auto">Innovating for Clients Story</h3>
+              <p class="leading-[1.5] text-grey-20 desktop:text-[18px] tablet:text-[16px] font-medium desktop:ml-[80px] tablet:ml-[60px] phone:pb-[30px]">Nutritionist introduced a mobile app, revolutionizing the way clients engage with their personalized nutrition plans. The app allowed for easy tracking of progress, access to resources, and seamless communication with their dedicated nutrition coaches. </p>
+              <span class="leading-[1.5] font-semibold text-grey-20 desktop:text-[18px] tablet:text-[16px]">January 20, 2017</span>
+            </div>
+            <img src="./assets/story/client-story.png" alt="client-story" class="w-1/2 h-auto">
+          </div>
+        </div>
+        <!-- Celebrating Success Stories -->
+        <div class="desktop:flex desktop:flex-col tablet:flex tablet:flex-col m-auto phone:hidden">
+          <div class="flex">
+            <img src="./assets/story/celebrating-story.png" alt="celebrating-story" class="w-1/2 h-auto desktop:border-r-[18px] tablet:border-r-[12px] border-green-70">
+            <div class="flex flex-col desktop:gap-10 tablet:gap-7.5 justify-center desktop:w-1/2 tablet:w-1/2 h-auto bg-green-95 pl-[80px]">
+              <h3 class="desktop:w-[392px] tablet:w-[296px] border-b-[3px] font-semibold leading-[1] desktop:text-[28px] tablet:text-[24px] pt-[10px] pb-[10px] border-green-70">Celebrating Success Stories</h3>
+              <p class="leading-[1.5] text-grey-20 desktop:text-[18px] tablet:text-[16px] font-medium desktop:mr-[80px] tablet:mr-[60px]">Nutritionist celebrated its 500th client success story. These stories showcased the positive impact of personalized nutrition coaching on individuals' lives, further motivating our team to continue providing exceptional services. </p>
+              <span class="leading-[1.5] font-semibold text-grey-20 desktop:text-[18px] tablet:text-[16px]">September 5, 2015</span>
+            </div>
+          </div>
+        </div>
+        <!-- Expanding Reach Story -->
+        <div class="desktop:flex desktop:flex-col tablet:flex tablet:flex-col m-auto phone:hidden">
+          <div class="flex">
+            <div class="flex flex-col desktop:gap-10 tablet:gap-7.5 justify-center desktop:w-1/2 tablet:w-1/2 h-auto bg-green-95 pr-[80px] text-right border-green-70 desktop:border-r-[18px] tablet:border-r-[12px]">
+              <h3 class="desktop:w-[411px] tablet:w-[251px] border-b-[3px] font-semibold leading-[1] desktop:text-[28px] tablet:text-[24px] pt-[10px] pb-[10px] border-green-70 ml-auto">Expanding Reach Story</h3>
+              <p class="leading-[1.5] text-grey-20 desktop:text-[18px] tablet:text-[16px] font-medium desktop:ml-[80px] tablet:ml-[60px]">Nutritionist expanded its services by launching an online platform, allowing individuals from all over the world to access personalized nutrition plans and expert guidance. This milestone brought convenience and accessibility to our growing client base. </p>
+              <span class="leading-[1.5] font-semibold text-grey-20 desktop:text-[18px] tablet:text-[16px]">June 10, 2014</span>
+            </div>
+            <img src="./assets/story/reach-story.png" alt="reach-story" class="w-1/2 h-auto">
+          </div>
+        </div>
+        <!-- Research and Expertise Story -->
+        <div class="desktop:flex desktop:flex-col tablet:flex tablet:flex-col m-auto phone:hidden">
+          <div class="flex">
+            <img src="./assets/story/expertise-story.png" alt="expertise-story" class="w-1/2 h-auto desktop:border-r-[18px] tablet:border-r-[12px] border-green-70">
+            <div class="flex flex-col desktop:gap-10 tablet:gap-7.5 justify-center desktop:w-1/2 tablet:w-1/2 h-auto bg-green-95 pl-[80px]">
+              <h3 class="desktop:w-[392px] tablet:w-[315px] border-b-[3px] font-semibold leading-[1] desktop:text-[28px] tablet:text-[24px] pt-[10px] pb-[10px] border-green-70">Research and Expertise Story</h3>
+              <p class="leading-[1.5] text-grey-20 desktop:text-[18px] tablet:text-[16px] font-medium desktop:mr-[80px] tablet:mr-[60px]">After extensive research and collaborating with nutrition experts, Sarah Mitchell and her team developed a comprehensive program rooted in scientific knowledge and evidence-based strategies. This milestone marked the establishment of Nutritionist as a trusted source of personalized nutrition coaching. </p>
+              <span class="leading-[1.5] font-semibold text-grey-20 desktop:text-[18px] tablet:text-[16px]">March 15, 2012</span>
+            </div>
+          </div>
+        </div>
+        <!-- The Inception Story -->
+        <div class="desktop:flex desktop:flex-col tablet:flex tablet:flex-col m-auto phone:hidden">
+          <div class="flex">
+            <div class="flex flex-col desktop:gap-10 tablet:gap-7.5 justify-center desktop:w-1/2 tablet:w-1/2 h-auto bg-green-95 pr-[80px] text-right border-green-70 desktop:border-r-[18px] tablet:border-r-[12px] rounded-bl-[16px]">
+              <h3 class="desktop:w-[411px] tablet:[210px] border-b-[3px] font-semibold leading-[1] desktop:text-[28px] tablet:text-[24px] pt-[10px] pb-[10px] border-green-70 ml-auto">The Inception Story</h3>
+              <p class="leading-[1.5] text-grey-20 desktop:text-[18px] tablet:text-[16px] font-medium desktop:ml-[80px] tablet:ml-[60px]">On this day, Nutritionist was born with the vision of helping individuals achieve their weight loss and health goals through personalized nutrition coaching. The founder, Sarah Mitchell, recognized the need for a sustainable and effective approach to healthy living, and thus began the journey of Nutritionist. </p>
+              <span class="leading-[1.5] font-semibold text-grey-20 desktop:text-[18px] tablet:text-[16px]">January 1, 2010</span>
+            </div>
+            <img src="./assets/story/inception-story.png" alt="inception-story" class="w-1/2 h-auto rounded-br-[16px]">
+          </div>
+        </div>
+      </div>
+      <div class="flex desktop:mt-[150px] tablet:mt-[150px] phone:mt-[50px] m-auto justify-center">
+        <div class="flex flex-col gap-[10px]">
+          <h2 class="text-center font-semibold leading-[1.5] desktop:text-5xl tablet:text-[38px] phone:text-[28px]">Company Achievements</h2>
+          <p class="text-center text-grey-20 leading-[1.5] desktop:text-[18px] tablet-[16px] phone:text-[14px] font-medium tablet:px-[250px] phone:px-[250px] desktop:px-[300px]">At Nutritionist, we take pride in our accomplishments and the positive impact we have made on the lives of our clients. Here are some of our notable achievements</p>
+        </div>
+      </div>
+      <!--  -->
+      <div class="desktop:pt-[80px] tablet:pt-[60px] phone:pt-[50px] flex desktop:flex-wrap desktop:flex-row desktop:gap-[30px] tablet:flex-wrap tablet:flex-row desktop:gap-[20px] phone:gap-[20px] m-auto justify-center desktop:mb-[150px] phone:mb-[50px] phone:flex-col">
+        <div class="desktop:w-[calc((100%-30px)/2)] tablet:w-[calc((100%-20px)/2)] bg-green-95 flex desktop:gap-[24px] phone:gap-[16px] flex-col rounded-xl border border-green-85">
+          <div class="flex items-center desktop:gap-[14px] tablet:gap-[10px] phone:gap-[10px] justify-center desktop:mt-10 phone:mt-7.5 desktop:ml-[50px] phone:mx-[30px] justify-start">
+            <img src="./assets/icon/camera-macro.png" alt="icon-camera-macro" class="w-10 h-10">
+            <h4 class="font-semibold desktop:text-2xl text-grey-15 tablet:text-[20px] phone:text-[18px]">10,000+ Transformations</h4>
+          </div>
+          <p class="desktop:mb-[67px] phone:mb-7.5 leading-[1.5] text-grey-20 desktop:text-[18px] tablet:text-[16px] font-medium desktop:mx-[50px] phone:text-[14px] phone:mx-[30px]">Our personalized nutrition plans have helped thousands of individuals reach their weight loss goals and maintain a healthy lifestyle. </p>
+        </div>
+        <div class="desktop:w-[calc((100%-30px)/2)] tablet:w-[calc((100%-20px)/2)] bg-green-95 flex desktop:gap-[24px] phone:gap-[16px] flex-col rounded-xl border border-green-85">
+          <div class="flex items-center dektop:gap-[14px] tablet:gap-[10px] phone:gap-[10px] justify-center desktop:mt-10 phone:mt-7.5 desktop:ml-[50px] phone:mx-[30px] justify-start">
+            <img src="./assets/icon/graduationcap.png" alt="icon-graduationcap" class="w-10 h-10">
+            <h4 class="font-semibold desktop:text-2xl text-grey-15 tablet:text-[20px] phone:text-[18px]">Recognition for Excellence</h4>
+          </div>
+          <p class="desktop:mb-[67px] phone:mb-7.5 leading-[1.5] text-grey-20 desktop:text-[18px] tablet:text-[16px] font-medium desktop:mx-[50px] phone:text-[14px] phone:mx-[30px]">Nutritionist has been recognized as a leading provider of personalized nutrition coaching, receiving accolades for our innovative approach and commitment to client success. </p>
+        </div>
+        <div class="desktop:w-[calc((100%-30px)/2)] tablet:w-[calc((100%-20px)/2)] bg-green-95 flex desktop:gap-[24px] phone:gap-[16px] flex-col rounded-xl border border-green-85">
+          <div class="flex items-center dektop:gap-[14px] tablet:gap-[10px] phone:gap-[10px] justify-center desktop:mt-10 phone:mt-7.5 desktop:ml-[50px] phone:mx-[30px] justify-start">
+            <img src="./assets/icon/fork-knife.png" alt="icon-fork-knife" class="w-10 h-10">
+            <h4 class="font-semibold desktop:text-2xl text-grey-15 tablet:text-[20px] phone:text-[18px]">Positive Client Reviews</h4>
+          </div>
+          <p class="desktop:mb-[67px] phone:mb-7.5 leading-[1.5] text-grey-20 desktop:text-[18px] tablet:text-[16px] font-medium desktop:mx-[50px] phone:text-[14px] phone:mx-[30px]">We have received numerous testimonials from satisfied clients who have experienced significant improvements in their health, weight, and overall well-being through our coaching program. </p>
+        </div>
+        <div class="desktop:w-[calc((100%-30px)/2)] tablet:w-[calc((100%-20px)/2)] bg-green-95 flex desktop:gap-[24px] phone:gap-[16px] flex-col rounded-xl border border-green-85">
+          <div class="flex items-center dektop:gap-[14px] tablet:gap-[10px] phone:gap-[10px] justify-center desktop:mt-10 phone:mt-7.5 desktop:ml-[50px] phone:mx-[30px] justify-start">
+            <img src="./assets/icon/wallet-pass.png" alt="icon-wallet-pass" class="w-10 h-10">
+            <h4 class="font-semibold desktop:text-2xl text-grey-15 tablet:text-[20px] phone:text-[18px]">Collaborate With Top Health Experts.</h4>
+          </div>
+          <p class="desktop:mb-[67px] phone:mb-7.5 leading-[1.5] text-grey-20 desktop:text-[18px] tablet:text-[16px] font-medium desktop:mx-[50px] phone:text-[14px] phone:mx-[30px]">Nutritionist has established partnerships with respected nutritionists, dietitians, and health experts to ensure that our clients receive the highest quality guidance and support.</p>
+        </div>
+      </div>
+      <!--  -->
+      <div class="desktop:h-[279px] bg-green-95 flex justify-center m-auto rounded-xl overflow-hidden relative border border-green-85 z-0">
+        <img src="./assets/abstract/path.png" class="flex desktop:w-56 desktop:h-36 phone:w-49 phone:h-31.5 scale-x-[-1] absolute desktop:top-[-25px] desktop:left-[-50px] tablet:top-[-25px] tablet:left-[-50px]  z-10 phone:top-[-50px] phone:left-[-100px]">
+        <div class="flex desktop:flex-row tablet:flex-row phone:flex-col desktop:gap-[150px] phone:gap-[20px] phone:py-10 phone:px-10 desktop:px-0 desktop:py-0 justify-center items-center m-auto phone:text-center desktop:text-left tablet:text-left">
+          <div class="flex flex-col z-100 desktop:gap-[14px] tablet:gap-[10px] desktop:ml-20 tablet:ml-15 justify-center phone:gap-[10px]">
+            <h3 class="font-semibold desktop:text-2xl text-grey-15 leading-[1.5] tablet:text-[26px] phone:text-[22px] phone:z-100">We Are Proud of Our Achievements</h3>
+            <p class="font-medium desktop:text-[18px] tablet:text-[16px] phone:text-[14px] phone:z-100">But our ultimate satisfaction comes from seeing our clients achieve their goals and live healthier, happier lives. Join Nutritionist today and embark on your own transformative journey towards optimal health and well-being.</p>
+          </div>
+          <input type="button" class="phone:w-full phone:z-100 desktop:w-max tablet:w-max bg-green-70 rounded-lg desktop:m-20 tablet:m-15 desktop:px-6 tablet:px-5 tablet:py-[14px] desktop:py-[18px] phone:py-[14px] phone:mb-10 cursor-pointer font-semibold leading-[1.5] text-grey-15 desktop:text-[18px] phone:text-[14px] whitespace-nowrap transition-all duration-800 ease-in-out hover:text-absolute-white hover:bg-dark-green-25" value="Book a Demo"></input>
+        </div>
+        <img src="./assets/abstract/petals.png" class="flex w-41 h-41 absolute desktop:bottom-[-70px] desktop:right-[-25px] tablet:bottom-[-50px] tablet:right-[-20px] phone:bottom-[-10px] phone:right-[-10px] z-10">
+      </div>
+    </main>
+    <footer class="desktop:px-0 bg-dark-green-15 desktop:mt-[150px] tablet:mt-[100px] phone:mt-[50px] flex flex-col w-full items-center gap-[30px] desktop:gap-[50px] pb-10 desktop:pb-0 tablet:pb-0">
+      <div class="w-full flex flex-wrap justify-between items-center px-4 pt-8 tablet:px-[50px] desktop:px-[75px] desktop:pt-[50px] tablet:pt-[40px] gap-y-8 desktop:gap-y-0">
+        <img src="./assets/logo/desktop_logo.png" alt="logo" class="w-[150px] desktop:w-[195px] h-auto desktop:h-[45px]">
+        <div class="phone:order-last w-full desktop:order-none tablet:order-none desktop:w-auto tablet:w-auto flex items-center justify-start">
+          <ul class="flex flex-wrap list-none gap-[16px] desktop:gap-[26px] tablet:gap-[16px]">
+            <li class="font-semibold text-base desktop:text-lg leading-[1.5] text-absolute-white cursor-pointer transition-all duration-800 ease-in-out hover:text-green-70 hover:font-bold"><a href="#">Home</a></li>
+            <li class="font-semibold text-base desktop:text-lg leading-[1.5] text-absolute-white cursor-pointer transition-all duration-800 ease-in-out hover:text-green-70 hover:font-bold text-green-70"><a href="#!">About</a></li>
+            <li class="font-semibold text-base desktop:text-lg leading-[1.5] text-absolute-white cursor-pointer transition-all duration-800 ease-in-out hover:text-green-70 hover:font-bold"><a href="#">Team</a></li>
+            <li class="font-semibold text-base desktop:text-lg leading-[1.5] text-absolute-white cursor-pointer transition-all duration-800 ease-in-out hover:text-green-70 hover:font-bold"><a href="#">Process</a></li>
+            <li class="font-semibold text-base desktop:text-lg leading-[1.5] text-absolute-white cursor-pointer transition-all duration-800 ease-in-out hover:text-green-70 hover:font-bold"><a href="#">Pricing</a></li>
+            <li class="w-full desktop:hidden tablet:hidden"></li>
+            <li class="font-semibold text-base desktop:text-lg leading-[1.5] text-absolute-white cursor-pointer transition-all duration-800 ease-in-out hover:text-green-70 hover:font-bold"><a href="#">Blog</a></li>
+            <li class="font-semibold text-base desktop:text-lg leading-[1.5] text-absolute-white cursor-pointer transition-all duration-800 ease-in-out hover:text-green-70 hover:font-bold"><a href="">Contact</a></li>
+          </ul>
+        </div>
+        <div class="flex gap-3 desktop:gap-5 items-center justify-center">
+          <span class=" desktop:block tablet:block font-semibold desktop:text-lg tablet:text-[16px] leading-[1.5] text-absolute-white">Got To Top</span>
+          <a href="#header__btn">
+            <button class="rounded-[50%] bg-dark-green-20 p-[10px] desktop:p-[14px] tablet:p-[12px] group hover:bg-absolute-white cursor-pointer transition-all duration-800 ease-in-out">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="transition-all duration-800 ease-in-out group-hover:text-absolute-black text-absolute-white size-5 desktop:size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 10.5 12 3m0 0 7.5 7.5M12 3v18" />
+              </svg>
+            </button>
+          </a>
+        </div>
+      </div>
+      <div class="w-full px-4 desktop:px-[75px] tablet:px-[50px] py-10">
+        <div class="flex flex-col desktop:flex-row tablet:flex-row bg-dark-green-20 rounded-lg border border-dark-green-25 items-center justify-between p-5 desktop:px-[30px] desktop:py-[24px] tablet:px-[24px] tablet:py-[20px] gap-6">
+          <div class="flex flex-col desktop:flex-row tablet:flex-row gap-4 desktop:gap-5 tablet:gap-4 w-full desktop:w-auto tablet:w-auto">
+            <div class="flex items-center phone:justify-center gap-[6px] p-[14px] border border-dark-green-25 rounded-md cursor-pointer group hover:bg-absolute-white transition-all duration-800 ease-in-out whitespace-nowrap">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-5 desktop:size-6 text-green-70 group-hover:text-absolute-black">
+                <path d="M1.5 8.67v8.58a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V8.67l-8.928 5.493a3 3 0 0 1-3.144 0L1.5 8.67Z" />
+                <path d="M22.5 6.908V6.75a3 3 0 0 0-3-3h-15a3 3 0 0 0-3 3v.158l9.714 5.978a1.5 1.5 0 0 0 1.572 0L22.5 6.908Z" />
+              </svg>
+              <span class="font-medium leading-[1.5] text-base desktop:text-lg text-absolute-white group-hover:text-absolute-black transition-all duration-800 ease-in-out">
+                <a href="mailto:hello@squareup.com" class="text-[16px] desktop:text-[18px]">hello@squareup.com</a>
+              </span>
+            </div>
+            <div class="flex items-center phone:justify-center gap-[6px] p-[14px] border border-dark-green-25 rounded-md cursor-pointer group hover:bg-absolute-white transition-all duration-800 ease-in-out whitespace-nowrap">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-5 desktop:size-6 text-green-70 group-hover:text-absolute-black transition-all duration-800 ease-in-out">
+                <path fill-rule="evenodd" d="M1.5 4.5a3 3 0 0 1 3-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 0 1-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 0 0 6.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 0 1 1.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 0 1-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5Z" clip-rule="evenodd" />
+              </svg>
+              <span class="font-medium leading-[1.5] text-base desktop:text-lg text-absolute-white group-hover:text-absolute-black">
+                <a href="tel:+91 91813 23 2309" class="text-[16px] desktop:text-[18px]">+91 91813 23 2309</a>
+              </span>
+            </div>
+            <div class="flex items-center phone:justify-center gap-[6px] p-[14px] border border-dark-green-25 rounded-md cursor-pointer group hover:bg-absolute-white transition-all duration-800 ease-in-out whitespace-nowrap">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-5 desktop:size-6 text-green-70 group-hover:text-absolute-black transition-all duration-800 ease-in-out">
+                <path fill-rule="evenodd" d="m11.54 22.351.07.04.028.016a.76.76 0 0 0 .723 0l.028-.015.071-.041a16.975 16.975 0 0 0 1.144-.742 19.58 19.58 0 0 0 2.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 0 0-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 0 0 2.682 2.282 16.975 16.975 0 0 0 1.145.742ZM12 13.5a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" clip-rule="evenodd" />
+              </svg>
+              <span class="font-medium leading-[1.5] text-base desktop:text-lg text-absolute-white group-hover:text-absolute-black transition-all duration-800 ease-in-out text-[16px] desktop:text-[18px]">Somewhere in the World</span>
+            </div>
+          </div>
+          <div class="w-full desktop:w-auto text-center desktop:text-right tablet:text-right">
+            <span class="font-regular leading-[1.5] text-sm desktop:text-lg tablet:text-[14px] text-absolute-white">© 2023 Nutritionist. All rights reserved.</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
